@@ -25,6 +25,18 @@
   flex-basis: 30%;
   background-color: #fff;
 }
+.navbar-right ul {
+  float: right;
+  padding: 35px 50px 10px 50px;
+}
+.navbar-right ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+.navbar-right ul li img {
+  width: 20px;
+}
 .navbar-inner {
   display: flex;
   align-items: cneter;
