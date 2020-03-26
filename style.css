@@ -109,3 +109,9 @@
   margin-left: 225px;
   line-height: 10px;
 }
+.content-left img {
+  top: -5%;
+  right: -20%;
+  position: absolute;
+  z-index: 1;
+}
