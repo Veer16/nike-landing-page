@@ -11,5 +11,34 @@
     ),
     url(img/background.jpg);
   background-position: center;
-  background-size: cover;
+  font-family: sans-serif;
+}
+.nav-bar {
+  display: flex;
+  height: 12%;
+}
+.navbar-left {
+  flex-basis: 70%;
+  border-bottom: 1px solid #ffffff;
+}
+.navbar-right {
+  flex-basis: 30%;
+  background-color: #fff;
+}
+.navbar-inner {
+  display: flex;
+  align-items: cneter;
+  padding: 45px 50px 10px 50px;
+}
+.navbar-inner ul {
+  margin-left: 20px;
+  z-index: 2;
+}
+.navbar-inner ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+.navbar-inner ul li a {
+  text-decoration: none;
+  color: #fff;
 }
