@@ -115,3 +115,23 @@
   position: absolute;
   z-index: 1;
 }
+.content-right img {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  opacity: 0.5;
+}
+.product-details {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  margin-bottom: 20px;
+}
+.price-box {
+  display: flex;
+  width: 170px;
+  height: 150px;
+  align-items: center;
+  box-shadow: -40px 0 20px -40px rgba(189, 189, 189, 0.5),
+    40px 0 20px -40px rgba(189, 189, 189, 0.5);
+}
