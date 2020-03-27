@@ -127,6 +127,11 @@
   left: 10%;
   margin-bottom: 20px;
 }
+.product-details p {
+  text-align: right;
+  color: #999;
+  font-size: 13px;
+}
 .price-box {
   display: flex;
   width: 170px;
@@ -179,4 +184,19 @@
 
 .variant div:nth-child(5) {
   background-color: #000;
+}
+.social-link {
+  position: absolute;
+  bottom: 120px;
+  right: -110px;
+  transform: rotate(-90deg);
+}
+.social-link ul li {
+  list-style: none;
+  margin: 20px 15px;
+  display: inline-block;
+}
+.social-link ul li a {
+  text-decoration: none;
+  color: #999;
 }
