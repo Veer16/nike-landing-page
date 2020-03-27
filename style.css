@@ -135,3 +135,19 @@
   box-shadow: -40px 0 20px -40px rgba(189, 189, 189, 0.5),
     40px 0 20px -40px rgba(189, 189, 189, 0.5);
 }
+.price {
+  flex-basis: 70%;
+}
+.price h2 {
+  margin-left: 20px;
+  color: #999;
+  font-size: 22px;
+}
+.price h1 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.price h3 {
+  margin-left: 20px;
+  color: #ccc;
+}
